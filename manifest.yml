@@ -1,0 +1,8 @@
+applications:
+- path: build/libs/bluemixlinebot.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: live-soccer
+  host: https://console.ng.bluemix.net/apps/06eb4994-b6a4-48e7-80ff-7350e4d55234
+  disk_quota: 1024M
